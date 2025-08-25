@@ -1,0 +1,4 @@
+add rest endpoints
+add db support
+add docker
+created docker-compose file
