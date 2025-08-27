@@ -1,0 +1,70 @@
+### GET request
+GET http://localhost:8080/events
+Accept: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNzczEyM0BpbmJveC5sdiIsImV4cCI6MTc1NjExMTYwOCwidXNlcklkIjowfQ.DuWQUrNCoNnIKHiLRkGmv3ZWJVW7NQd1lNAeInecAEE
+
+### GET request
+GET http://localhost:8080/events/1
+Accept: application/json
+
+### POST request
+POST http://localhost:8080/events
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNzczEyMzExMTExMUBpbmJveC5sdiIsImV4cCI6MTc1NjExNzQ0NCwidXNlcklkIjo2fQ.y76Tl7N9KxJ8W2n1ivm0qc1nG8i-550X9BvlC8yOhbQ
+
+{
+  "name": "Vasj555a",
+  "description": "blab555l55555555avla2",
+  "location": "ri555ga",
+  "dateTime": "2025-01-01T15:30:00.000Z"
+}
+
+### PUT request
+PUT http://localhost:8080/events/4
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNzczEyMzFAaW5ib3gubHYiLCJleHAiOjE3NTYxMTY0OTcsInVzZXJJZCI6NX0.JUDqZLSMrmnq_0lIXRxnIaTvrrydnYEs0ossUmFsgyA
+
+{
+  "name": "Vasja",
+  "description": "dfsdfsdf",
+  "location": "rigacgdfgdfg",
+  "dateTime": "2025-01-01T15:30:00.000Z"
+}
+
+### DELETE request
+DELETE http://localhost:8080/events/10
+Accept: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNzc0BpbmJveC5sdiIsImV4cCI6MTc1NjExNzkxNSwidXNlcklkIjozfQ.rui-mmnRIl-RYZz6sRLBfikV4mJRT_Ofc2i_iasLrZc
+
+### POST request
+POST http://localhost:8080/events/12/register
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNzczEyMzExMTExMUBpbmJveC5sdiIsImV4cCI6MTc1NjExNzQ0NCwidXNlcklkIjo2fQ.y76Tl7N9KxJ8W2n1ivm0qc1nG8i-550X9BvlC8yOhbQ
+
+
+### DELETE request
+DELETE http://localhost:8080/events/12/register
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNzczEyMzExMTExMUBpbmJveC5sdiIsImV4cCI6MTc1NjExNzQ0NCwidXNlcklkIjo2fQ.y76Tl7N9KxJ8W2n1ivm0qc1nG8i-550X9BvlC8yOhbQ
+
+
+###############################################################
+
+
+### POST request
+POST http://localhost:8080/signup
+Content-Type: application/json
+
+{
+  "email": "sss123111111@inbox.lv",
+  "password": "password1234"
+}
+
+### POST request
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+  "email": "sss@inbox.lv",
+  "password": "password1234"
+}
