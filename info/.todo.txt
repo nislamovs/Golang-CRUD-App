@@ -1,0 +1,22 @@
+add rest endpoints                                          OK
+add db support                                              OK
+add docker                                                  OK
+created docker-compose file                                 OK
+
+
+exclude project build from docker                           OK
+add make file
+
+add swagger
+modify dockerfile appropriately
+
+create make file with commands
+                              go build
+                              go run locally
+                              go test
+                              go docker build
+                              go docker compose
+                              go generate swagger
+
+
+

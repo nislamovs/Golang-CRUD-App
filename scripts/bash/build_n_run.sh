@@ -3,10 +3,10 @@
 cd ../../
 
 # Build image
-docker build -t my-go-app .
+docker build -t golang-crud-app .
 
 # Run container
-docker run -p 8080:8080 my-go-app
+docker run -p 8080:8080 golang-crud-app
 
 # ####################################################################3
 

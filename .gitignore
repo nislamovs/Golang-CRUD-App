@@ -6,6 +6,7 @@ temp
 *.iml
 *.ipr
 out
+bin
 
 # Store launch config in repo but not settings
 .vscode/settings.json

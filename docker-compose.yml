@@ -7,3 +7,14 @@ services:
     ports:
       - "8080:8080"
     restart: always
+    volumes:
+      - ./data:/app/data
+
+#  sqlite-web:
+#    image: coleifer/sqlite-web
+#    restart: always
+#    ports:
+#      - 8081:8080
+#    volumes:
+#      - ./data:/data
+#    command: /data/api.db  # pass the actual DB file, not folder

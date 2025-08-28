@@ -1,7 +1,0 @@
-add rest endpoints                                          OK
-add db support                                              OK
-add docker                                                  OK
-created docker-compose file                                 OK
-
-
-
